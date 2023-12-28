@@ -1,0 +1,15 @@
+body > div {
+  margin: 20px;
+}
+.array {
+  margin: 0px;
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.array div {
+  background-color: #ffb86c;
+  border: 0.1rem solid #44475a;
+}

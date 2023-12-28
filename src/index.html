@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визуализация алгоритмов сортировки</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div class="sorts">
+        Сортировка: <button onclick="bubbleSort()">Пузырьком</button>
+        <button onclick="combSort()">Расчёской</button>
+        <button onclick="shakerSort()">Перемешиванием</button>
+        <button onclick="quickSort()">Быстрая</button>
+        <button onclick="insertionSort()">Вставками</button>
+    </div>
+
+    <div>
+        <label>Скорость: <input id="speed" type="range" min="0" max="500" step="1" value="50"></label>
+    </div>
+
+    <div>
+        <label>Кол-во операций: <input id="iteration" value="0" type="number" disabled /></label>
+    </div>
+
+    <div class="array"></div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
